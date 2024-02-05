@@ -1,0 +1,389 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+}
+
+nav {
+    margin: 0px;
+    padding: 17px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:999; 
+}
+
+hr{
+    margin: 0px;
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav button{
+    background-color: rgb(75, 131, 236);
+    border: 1px solid rgb(75, 131, 236);
+    height: 24px;
+    color: white;
+}
+
+nav input{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+#search{
+    margin-top: 10px;
+}
+
+
+
+.categories{
+    width: 280px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 20px;
+    text-align:center;
+    background-color: rgb(203, 194, 194);  
+    box-shadow: 0px 0px 5px gray;
+}
+
+.categories:hover{
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#categ{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+h1{
+    margin: 0px;
+    padding: 25px;
+}
+
+#about button{
+    color:gray;
+    font-size: 23px;
+    border: 1px solid rgb(76, 244, 76);
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+#about button:hover{
+    background-color: #ddd;
+    color: white;
+    box-shadow:  1px 1px 15px rgb(76, 244, 76);
+}
+
+.container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.welcome{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(226, 0, 75);
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+#welcomeText h3{
+    line-height: 33pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#welcomeText{
+    max-width: 1000px;
+    margin-left: 14%;
+    position: relative;
+    top: 20%;
+}
+
+.Getstarted{
+    margin-top: 5%;
+    margin-left: 14%;
+}
+
+.Getstarted button{
+    background-color: transparent;
+    font-size: 22px;
+    border: 3px solid black;
+    height: 50px;
+    width: 200px;
+}
+
+.Getstarted button:hover{
+    background-color: black;
+    color: aliceblue;
+    border: 3px solid whitesmoke;
+}
+
+.carousel-control-prev{
+    color: black;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 300px;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+#stars{
+    text-align: center;
+}
+
+#experiment{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Add flex-wrap to wrap the cards */
+}
+
+#allexp{
+    background-color: black;
+    padding: 50px;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+.titles{
+    background-color: beige;
+    text-align: center;
+}
+
+#join{
+    background-color: rgb(24, 24, 92);
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+#join:hover{
+    background-color: rgb(29, 29, 118);
+}
+
+#email{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px ;
+    border: 1px solid gray;
+}
+
+#promotions{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 253, 132); 
+}
+
+.d-inline-flex a{
+    border-radius: 100%;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pr{
+    padding: 50px;
+    color: rgb(109, 86, 86);
+}
+
+#textpr{
+    text-decoration:line-through; 
+    color:black;
+    background-color: #ff0000;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+#users{
+    color: beige;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #252525;
+}
+
+.container1 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 100px;
+  .search {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: crimson;
+    border-radius: 50%;
+    transition: all 1s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px 0 crimson;
+    &:hover {
+      cursor: pointer;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      margin: auto;
+      top: 22px;
+      right: 0;
+      bottom: 0;
+      left: 22px;
+      width: 12px;
+      height: 2px;
+      background: white;
+      transform: rotate(45deg);
+      transition: all .5s;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      margin: auto;
+      top: -5px;
+      right: 0;
+      bottom: 0;
+      left: -5px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 2px solid white;
+      transition: all .5s;
+    }
+  }
+  input {
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: crimson;
+    color: white;
+    text-shadow: 0 0 10px crimson;
+    padding: 0 80px 0 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 0 crimson,
+                0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+    opacity: 0;
+    z-index: 5;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      width: 300px;
+      opacity: 1;
+      cursor: text;
+    }
+    &:focus ~ .search {
+      right: -250px;
+      background: #151515;
+      z-index: 6;
+      &::before {
+        top: 0;
+        left: 0;
+        width: 25px;
+      }
+      &::after {
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 2px;
+        border: none;
+        background: white;
+        border-radius: 0%;
+        transform: rotate(-45deg);
+      }
+    }
+    &::placeholder {
+      color: white;
+      opacity: 0.5;
+      font-weight: bolder;
+    }
+  }
+}
